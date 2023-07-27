@@ -19,4 +19,9 @@ subset:
   confidence: 99
 record-tests:
   # The test results are placed here in JUnit XML format
-  result_dir: launchable-test-result
+  result_dir: report
+# Set environment variables for Launchable
+env:
+  LAUNCHABLE_TOKEN: v1:calsoft/pytestdemo:10bde15bec7741909cf8864ccafc5aa8
+  LAUNCHABLE_DEBUG: 1
+  LAUNCHABLE_REPORT_ERROR: 1
